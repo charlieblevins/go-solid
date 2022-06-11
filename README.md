@@ -3,6 +3,16 @@ Experimenting
 
 Idea: Enterprise-ready SOLID server written in golang
 
+TODOs:
+- [] Authentication
+- [] File Storage in Object Store
+- [] RDF parsing and handling of requests
+
+## No Reason to re-invent the wheel
+NSS and SCS have tons of great implementations of 
+general solid project concepts. Porting this logic
+will usually be a go-to.
+
 Requirements
 - must use an object store like S3 or equivalent (should not use a local file system)
 - must implement the specification completely
